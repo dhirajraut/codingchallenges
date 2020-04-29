@@ -13,15 +13,19 @@ public class CountingValleys {
 		int valleyCount = 0;
 		for (int index = 0; index < n; index++) {
 			if (Character.compare('U', s.charAt(index)) == 0) {
+				/* Step Up. */
 				level++;
 			} else if (Character.compare('D', s.charAt(index)) == 0) {
+				/* Step Down. */
 				level--;
 			}
-			if (level < 0) {
-				valley = true;
-			} else if (level == 0 && valley) {
-				valleyCount++;
-				valley = false;
+			
+			/* Check if the valley has ended. */
+			if (valley) {
+				if (level == 0) {
+					valleyCount++;
+					valley = false;
+				}
 			}
 		}
 		return valleyCount;
