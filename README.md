@@ -11,8 +11,7 @@ hackerrank solutions java GitHub | hackerrank tutorial in java | hackerrank 30 d
 
 
 | Index | Problem | Solution |
-
-|:---:|:---------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:---:|:----------------------------:|:------------------------------------:|
 |1| [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=warmup) | [SockMerchantPairingSocks.java](https://github.com/dhirajraut/codingchallenges/blob/master/src/main/java/com/galaxy/codingchallenges/sockmerchant/SockMerchantPairingSocks.java)|
 |2| [Array Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)| [DiagonalDifferenceOf2DArray.java](https://github.com/dhirajraut/codingchallenges/blob/master/src/main/java/com/galaxy/codingchallenges/diagonaldifference/DiagonalDifferenceOf2DArray.java)|
 
